@@ -1,7 +1,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
-const screenshot = "./Assets/Images/screenshot.PNG";
+const screenshot = "images/screenshot.PNG";
 const writeFile = util.promisify(fs.writeFile);
 
 function promptUser() {
@@ -79,7 +79,7 @@ function generateMarkDown(response) {
 ![License](https://img.shields.io/badge/license-${response.license}-blue.svg "License Badge")
 
 ${response.description}
-[Screenshot](${screenshot})
+![Screenshot](${screenshot})
 ## Installation:
 ${response.install}
 ## Usage:

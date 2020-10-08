@@ -16,11 +16,11 @@
 ![License](https://img.shields.io/badge/license-MIT-blue.svg "License Badge")
 
 This program takes user input and creates a professional README file.
-![Screenshot](./Assets/Images/screenshot.PNG)
+![Screenshot](Images/screenshot.PNG)
 
 ## Installation:
 
-Clone repo from my GitHub, then "npm install" in node. Save your screenshot as "screenshot.PNG" inside ./Assets/Images directory.
+Clone repo from my GitHub, then "npm install" in node. Save your screenshot as "screenshot.PNG" inside the Images directory.
 
 ## Usage:
 
