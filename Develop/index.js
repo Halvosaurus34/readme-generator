@@ -72,34 +72,34 @@ function generateMarkDown(response) {
 - [Contributing](#contribution)
 - [Test](#test)
 - [Credits](#credits)
-- [license](#license)
+- [License](#license)
 - [Questions](#questions)
 
 ## Description:
 ![License](https://img.shields.io/badge/license-${response.license}-blue.svg "License Badge")
 
-    ${response.description}
+${response.description}
 ## Installation:
-    ${response.install}
+${response.install}
 ## Usage:
-    ${response.usage}
+${response.usage}
 ## Contribution:
-    ${response.contribution}
+${response.contribution}
 ## Test:
-    ${response.test}
+${response.test}
 ## Credits: 
-    ${response.credit}
+${response.credit}
 ## License: 
-    For more information about the license, click on the link below.
+For more information about the license, click on the link below.
 
 - [License](https://choosealicense.com/licenses/mit/)
 
 ## Questions:
-    For questions about this project you can go to my GitHub page at the following link:
+For questions about this project you can go to my GitHub page at the following link:
 
 - [GitHub Profile](https://github.com/${response.username})
 
-    For additional questions please reach out to me at: ${response.email}.
+For additional questions please reach out to me at: ${response.email}.
 `;
 }
 // function to initialize program
