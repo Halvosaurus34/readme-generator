@@ -27,7 +27,7 @@ Use this program to generate a readme for your next project!
 
 ## Contribution:
 
-None
+[Code of Conduct](./CODE_OF_CONDUCT.md)
 
 ## Test:
 
