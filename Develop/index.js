@@ -1,8 +1,8 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
-
-const writeFileAsync = util.promisify(fs.writeFile);
+const screenshot = "./Assets/Images/screenshot.PNG";
+const writeFile = util.promisify(fs.writeFile);
 
 function promptUser() {
   return inquirer.prompt([
@@ -79,6 +79,7 @@ function generateMarkDown(response) {
 ![License](https://img.shields.io/badge/license-${response.license}-blue.svg "License Badge")
 
 ${response.description}
+[Screenshot](${screenshot})
 ## Installation:
 ${response.install}
 ## Usage:
@@ -103,16 +104,16 @@ For additional questions please reach out to me at: ${response.email}.
 `;
 }
 // function to initialize program
-async function init() {
+async function initialize() {
   try {
     const response = await promptUser();
     const readMe = generateMarkDown(response);
-    await writeFileAsync("README.md", readMe);
-    console.log("Success!");
+    await writeFile("README.md", readMe);
+    console.log("Readme was generated");
   } catch (error) {
     console.log(error);
   }
 }
 
 // function call to initialize program
-init();
+initialize();
