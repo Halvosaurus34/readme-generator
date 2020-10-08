@@ -20,7 +20,7 @@ This program takes user input and creates a professional README file.
 
 ## Installation:
 
-Clone repo from my GitHub, then "npm install" in node. Save your screenshot as "screenshot.PNG" inside the Images directory.
+Clone repo from my GitHub, then "npm install" in node. Save your screenshot as "screenshot.PNG" inside the Images directory. Use the program with node index.js when in the develop directory. A sample video of how to use the program is provided to download in the repo (Presentaion.mp4).
 
 ## Usage:
 
