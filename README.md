@@ -16,7 +16,7 @@
 ![License](https://img.shields.io/badge/license-MIT-blue.svg "License Badge")
 
 This program takes user input and creates a professional README file.
-![Screenshot](Images/screenshot.PNG)
+![Screenshot](Develop/Images/screenshot.PNG)
 
 ## Installation:
 
