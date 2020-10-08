@@ -62,45 +62,45 @@ function promptUser() {
 
 function generateMarkDown(response) {
   return `
-    #${response.title}
+# ${response.title}
 
-    ## Table of Contents
+## Table of Contents
 
-    - [Description](#description)
-    - [Installastion](#installation)
-    - [Usage](#usage)
-    - [Contributing](#contribution)
-    - [Test](#test)
-    - [Credits](#credits)
-    - [license](#license)
-    - [Questions](#questions)
+- [Description](#description)
+- [Installastion](#installation)
+- [Usage](#usage)
+- [Contributing](#contribution)
+- [Test](#test)
+- [Credits](#credits)
+- [license](#license)
+- [Questions](#questions)
 
-    ## Description:
-    ![License](https://img.shields.io/badge/license-${response.license}-blue.svg "License Badge")
+## Description:
+![License](https://img.shields.io/badge/license-${response.license}-blue.svg "License Badge")
 
-        ${response.description}
-    ## Installation:
-        ${response.install}
-    ## Usage:
-        ${response.usage}
-    ## Contribution:
-        ${response.contribution}
-    ## Test:
-        ${response.test}
-    ## Credits: 
-        ${response.credit}
-    ## License: 
-        For more information about the license, click on the link below.
-    
-    - [License](https://choosealicense.com/licenses/mit/)
+    ${response.description}
+## Installation:
+    ${response.install}
+## Usage:
+    ${response.usage}
+## Contribution:
+    ${response.contribution}
+## Test:
+    ${response.test}
+## Credits: 
+    ${response.credit}
+## License: 
+    For more information about the license, click on the link below.
 
-    ## Questions:
-        For questions about this project you can go to my GitHub page at the following link:
-    
-    - [GitHub Profile](https://github.com/${response.username})
+- [License](https://choosealicense.com/licenses/mit/)
 
-        For additional questions please reach out to me at: ${response.email}.
-    `;
+## Questions:
+    For questions about this project you can go to my GitHub page at the following link:
+
+- [GitHub Profile](https://github.com/${response.username})
+
+    For additional questions please reach out to me at: ${response.email}.
+`;
 }
 // function to initialize program
 async function init() {
